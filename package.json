@@ -1,0 +1,18 @@
+{
+  "name": "api-framwork",
+  "version": "1.0.0",
+  "description": "framwork to run REST API tests with Cucumber using Pactum",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "e2e-test": "cucumber-js --tags @TestAccountData"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.4.0",
+    "pactum": "latest",
+    "dotenv":"16.3.1"
+  }
+}
